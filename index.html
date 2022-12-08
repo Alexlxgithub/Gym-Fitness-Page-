@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keshav Fitness</title>
+  </head>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <link rel="stylesheet" href="css/style.css" />
+  <css></css>
+  <style>
+    /* CSS Reset */
+    body {
+      /* font-family: 'Baloo Bhai 2', cursive; */
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/pic.jpg");
+    }
+    .left {
+      display: inline-block;
+      /* border: 4px solid red; */
+      position: absolute;
+      left: 30px;
+      top: 16px;
+      cursor: pointer;
+    }
+    .left img {
+      width: 100px;
+      filter: invert(100%); 
+    }
+    .left div {
+      text-align: center;
+    }
+    .mid {
+      /* border: 4px solid green; */
+      display: block;
+      width: 46%;
+      margin: 16px auto;
+      cursor: pointer;
+      font-size: 22px;
+    }
+    .right {
+      position: absolute;
+      display: inline-block;
+      /* border: 4px solid yellow; */
+      right: 30px;
+      top: 16px;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      color: white;
+      /* font-size: 20px; */
+    }
+    .navbar li a {
+      text-decoration: none;
+      padding: 34px 20px;
+    }
+    .navbar li a:hover {
+      /* text-decoration: underline; */
+      color: brown;
+    }
+    .btn {
+      margin: 15px 5px;
+      color: white;
+      background-color: black;
+      /* border: 2px solid red; */
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    .btn:hover {
+      background-color: brown;
+    }
+    .container {
+      /* border-color: white; */
+      border: 3px solid white;
+      margin: 50px 50px;
+      padding: 26px 25px;
+      width: 479px;
+      border-radius: 12px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 292px;
+      margin: 5px auto;
+      padding: 3px;
+      border-radius: 12px;
+      font-size: 18px;
+    }
+    .container h3 {
+      text-align: center;
+      font-size: 22px;
+    }
+    .container button {
+      display: block;
+      width: 300px;
+      border-radius: 9px;
+      margin: auto;
+      font-size: 18px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="img/gym logo.webp" alt="" />
+        <div>Keshav Fitness</div>
+      </div>
+      <!-- Mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a herf="#">Home</a></li>
+          <li><a herf="#">About us</a></li>
+          <li><a herf="#">Fitness calculator</a></li>
+          <li><a herf="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- Right box for button -->
+      <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h3>Join the best gym of delhi now</h3>
+      <form action="Noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Locality" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Phone number" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Email id" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
